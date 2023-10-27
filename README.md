@@ -10,7 +10,7 @@
 
 ## e- commerce
 
-![Capa de projeto](img1.png)
+![Capa de projeto](imgprojeto.png)
 
 ## Descrição
 
