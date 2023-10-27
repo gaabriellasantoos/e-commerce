@@ -1,0 +1,95 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333; /* Texto mais escuro */
+    background: linear-gradient(45deg, #FF9900, #FF6600); /* Fundo degradê amarelo para laranja */
+    font-family: "Arial", sans-serif; /* Uma fonte mais formal */
+}
+
+.container {
+    max-width: 800px; /* Largura máxima mais larga */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #f8d200; /* Adicionar uma borda amarela */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 153, 51, 0.3); /* Sombra laranja */
+    background-color: #fff2cc; /* Um fundo amarelo claro */
+}
+
+.container h1 {
+    color: #ff9900; /* Texto laranja para o cabeçalho */
+    text-align: center;
+    margin-bottom: 20px; /* Correção: adicione o hífen aqui */
+    font-size: 24px;
+    font-weight: bold; /* Texto em negrito para um estilo mais formal */
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ff9900; /* Borda laranja para os campos de entrada */
+    border-radius: 5px;
+    background-color: #ffffcc; /* Fundo amarelo claro para os campos de entrada */
+}
+
+.container input[type="date"] {
+    margin-bottom: 15px;
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900; /* Fundo laranja para o botão */
+    color: #fff; /* Texto branco para o botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #ff6600; /* Cor de destaque no hover mais escura (laranja mais escura) */
+}
+
+.container input::before {
+    content: "\e5ca";
+    font-family: 'Material Symbols Outlined';
+    font-size: 18px;
+    color: #ff9900; /* Cor laranja para o ícone */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+/* Melhorias estéticas */
+.container a {
+    text-decoration: none;
+    color: #ff6600; /* Cor laranja para os links */
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilizando o formulário de seleção */
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ff9900; /* Borda laranja para o campo de seleção */
+    border-radius: 5px;
+    background-color: #ffffcc; /* Fundo amarelo claro para o campo de seleção */
+}
